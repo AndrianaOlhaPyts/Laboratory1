@@ -12,5 +12,5 @@ RUN touch /var/log/check_replication.log
 
 RUN chmod +x /usr/local/bin/check_replication.sh
 
-COPY ./ply.sh ./loop.sh
+COPY ./ply.sh ./ply.sh
 CMD ["./ply.sh"]
